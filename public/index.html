@@ -139,16 +139,16 @@
     <div class="col col-lg-6 mx-auto text-start">
       <form id="form-lead">
         <div class="mb-3">
-          <input type="text" class="form-control" id="name" placeholder="Name">
+          <input type="text" class="form-control" name="name" placeholder="Name">
         </div>
         <div class="mb-3">
-          <input type="email" class="form-control" id="email" placeholder="Email">
+          <input type="email" class="form-control" name="email" placeholder="Email">
         </div>
         <div class="mb-3">
-          <input type="phone" class="form-control" id="phone" placeholder="Phone">
+          <input type="phone" class="form-control" name="phone" placeholder="Phone">
         </div>
         <div class="mb-3">
-          <textarea class="form-control" id="memo" rows="3" placeholder="Tell us more..."></textarea>
+          <textarea class="form-control" name="memo" rows="3" placeholder="Tell us more..."></textarea>
         </div>
 
         <button type="submit" class="btn btn-primary mb-3">Send</button>
@@ -171,28 +171,6 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script src="https://www.google.com/recaptcha/api.js?render=6LcAKMgbAAAAAI1v-qN1hMhcgiv--3ka-sU5vsaZ"></script>
-
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
-
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
-
-  <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-      apiKey: "AIzaSyCuWZQ6X2UHw0lO1Yseaeq2fzWY5dTjhg0",
-      authDomain: "oberonlogistics-web.firebaseapp.com",
-      databaseURL: "https://oberonlogistics-web-default-rtdb.firebaseio.com",
-      projectId: "oberonlogistics-web",
-      storageBucket: "oberonlogistics-web.appspot.com",
-      messagingSenderId: "253977294727",
-      appId: "1:253977294727:web:006491128fa2441ebd8522"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-  </script>
 
   <script src="js/contactform.js"></script>
 </body>
