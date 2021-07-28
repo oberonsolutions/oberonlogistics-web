@@ -1,34 +1,37 @@
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
 }
   
 body {
+  position: relative;
   background-color: #1F354A;
 }
 
+.navbar-brand img {
+  max-height: 64px;
+}
+
+.jumbotron {
+  height: calc(100vh - 5.5rem);
+  background-image: url("../img/cover.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron-content  {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.content p {
+  text-align: justify;
+}
+
 footer {
-  height: 100px;
   padding: 1em;
 }
 
-h1 {
-  color: navy;
-}
-
-.content {
-  min-height: calc(100vh - 100px);
-}
-
-.lead {
-  color: white;
-}
-
 .alert {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-
-.card {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }

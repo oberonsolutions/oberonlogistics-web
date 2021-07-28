@@ -1,40 +1,155 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Oberon Logistics</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Oberon Logistics</title>
 </head>
+
 <body>
-    <div class="content container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-3">
-                <div class="card">
-                    <!--<img class="card-img-top bg-light" src="img/oberonlogistics.jpg">-->
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><h3>Oberon Logistics</h3></li>
-                        <li class="list-group-item"><i class="far fa-envelope-open"></i> <a href="mailto:info@oberonlogistics.com">info@oberonlogistics.com</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-9">
-                <div class="card">
-                    <div class="card-body">
-                        <p>Coming soon...</p>
-                    </div>
-                </div>
-            </div>
+
+  <!-- navbar -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/oberon-logistics-lightbg.png" alt="Oberon Logistics">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNav" class="collapse navbar-collapse">
+        <div class="navbar-nav">
+          <a class="nav-link text-nowrap" href="#about-us">About Us</a>
+          <a class="nav-link text-nowrap" href="#pricing">Prices</a>
+          <a class="nav-link text-nowrap" href="#brokers">Brokers</a>
+          <a class="nav-link text-nowrap" href="#carriers">Carriers</a>
+          <a class="nav-link text-nowrap" href="#drivers">Drivers</a>
         </div>
+      </div>
     </div>
-    <footer class="container-fluid bg-light text-center small">
-        <p>
-          <i class="far fa-envelope-open"></i> <a href="mailto:info@oberonlogistics.com">info@oberonlogistics.com</a>
-        </p>
-        <p>&copy; 2021 Oberon Logistics - All Rights Reserved.</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </nav>
+
+  <!-- jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron-content h-100 d-flex align-items-end">
+      <div class="container pb-5 text-light">
+        <h1 class="display-4">Independent Truck Dispatch</h1>
+        <p class="lead">Just $0.10/mile and your first load is FREE!</p>
+        <p class="lead">For Owner Operators and Small Fleets</p>
+        <a class="btn btn-secondary btn-lg" href="tel:+13075551234">307-555-1234</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- content -->
+  <div id="about-us" class="content container-fluid bg-dark text-light text-center p-5">
+    <h4>About Us</h4>
+    <p class="lead">
+      <strong>Oberon Logistics</strong> is a truck dispatch company that provides top-notch dispatch services for
+      owner-operators and
+      small trucking companies. We help find the best freight load possible with the highest prices and focus on keeping
+      you
+      loaded on a weekly basis. Our team of truck dispatchers are all former OTR drivers and know the
+      roads in and out. We know driving is not easy, that’s why our truck dispatchers negotiate the highest rates on
+      your
+      behalf so that you get your money’s worth for all those miles. We handle all truck paperwork and deal with brokers
+      on
+      your behalf so that you stay focused on expanding your business. We’re not looking for short term clients, we are
+      looking for long term partners because we know that your success is our success. Maximize your earning potential
+      with
+      our dispatch services.
+    </p>
+    <a class="btn btn-secondary" href="contact">Get Started Today!</a>
+  </div>
+
+  <div id="pricing" class="content container-fluid bg-light text-dark text-center p-5">
+    <h4>Predictable Rates, Always!</h4>
+    <p class="lead">As an owner operator, your most important number is your cost per mile.
+      That's why our pricing is a per-mile rate, just like yours. And at just <strong>$0.10
+        per mile</strong> we won't break the bank. There's no hidden fees, and we even dispatch
+      your first load <strong>Absolutely FREE!</strong> For that you'll get:
+    </p>
+    <div class="col col-lg-6 mx-auto">
+      <ul class="list-group">
+        <li class="list-group-item bg-secondary text-light">
+          <i class="bi-patch-check"></i> 
+          We Negotiate Hard For Best Paying Rates 
+          <i class="bi-patch-check"></i>
+        </li>
+        <li class="list-group-item bg-secondary text-light">
+          <i class="bi-patch-check"></i> 
+          We Perform Credit Checks on Brokers
+          <i class="bi-patch-check"></i>
+        </li>
+        <li class="list-group-item bg-secondary text-light">
+          <i class="bi-patch-check"></i>
+          We Handle All Your Broker Setup Packets
+          <i class="bi-patch-check"></i>
+        </li>
+        <li class="list-group-item bg-secondary text-light">
+          <i class="bi-patch-check"></i>
+          We Handle Lumper/Detention
+          <i class="bi-patch-check"></i>
+        </li>
+        <li class="list-group-item bg-secondary text-light">
+          <i class="bi-patch-check"></i>
+          We Submit Invoices to Broker
+          <i class="bi-patch-check"></i>
+        </li>
+        <li class="list-group-item bg-secondary text-light">
+          <i class="bi-patch-check"></i>
+          We Assist with Billing Issues
+          <i class="bi-patch-check"></i>
+        </li>
+        <li class="list-group-item bg-secondary text-light">
+          <i class="bi-patch-check"></i>
+          Check Calls for Tracking Loads
+          <i class="bi-patch-check"></i>
+        </li>
+        <li class="list-group-item bg-secondary text-light">
+          <i class="bi-patch-check"></i>
+          Dedicated Dispatcher
+          <i class="bi-patch-check"></i>
+        </li>
+        <li class="list-group-item bg-secondary text-light">
+          <i class="bi-patch-check"></i>
+          You Pick The Areas You Want To Drive
+          <i class="bi-patch-check"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="container pt-5">
+      <h5>Payment Methods</h5>
+      <img src="img/payment/amex-color.png">
+      <img src="img/payment/discover-color.png">
+      <img src="img/payment/visa-color.png">
+      <img src="img/payment/mastercard-color.png">
+      <img src="img/payment/applepay-color.png">
+    </div>
+  </div>
+
+  <div id="contact" class="content container-fluid bg-dark text-light text-center p-5">
+  </div>
+
+
+  <!-- footer -->
+  <footer class="container-fluid bg-light text-center small">
+    <p>
+      <i class="bi-envelope-open"></i> <a href="mailto:info@oberonlogistics.com">info@oberonlogistics.com</a>
+    </p>
+    <p>&copy; 2021 Oberon Logistics - All Rights Reserved.</p>
+  </footer>
+
+  <!-- script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
