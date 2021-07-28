@@ -11,7 +11,7 @@ if (form) {
     grecaptcha.ready(function() {
       grecaptcha.execute('6LcAKMgbAAAAAI1v-qN1hMhcgiv--3ka-sU5vsaZ', {action: 'submit'}).then(function(token) {
           // Add your logic to submit to your backend server here.
-          alert token;
+          alert(token);
       });
     });
 /*
