@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 5.5rem;
+  scroll-padding-top: 5rem;
 }
   
 body {
@@ -9,11 +9,11 @@ body {
 }
 
 .navbar-brand img {
-  max-height: 64px;
+  max-height: 4rem;
 }
 
 .jumbotron {
-  height: calc(100vh - 5.5rem);
+  height: calc(100vh - 5rem);
   background-image: url("../img/cover.png");
   background-size: cover;
   background-position: center;
