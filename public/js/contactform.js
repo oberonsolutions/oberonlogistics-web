@@ -8,7 +8,7 @@ form.addEventListener('submit', handleFormSubmit);
 function handleFormSubmit(event) {
   event.preventDefault();
 
-  const backendURL = 'https://us-central1-oberonlogistics-2a5d9.cloudfunctions.net/leads';
+  const backendURL = 'https://us-central1-oberonlogistics-2a5d9.cloudfunctions.net/api/leads';
 
   const data = new FormData(event.target);
   const formJSON = Object.fromEntries(data.entries());
