@@ -27,6 +27,10 @@ body {
   text-align: justify;
 }
 
+#faq p.lead {
+  margin-bottom: 0.25rem;
+}
+
 footer {
   padding: 1em;
 }
