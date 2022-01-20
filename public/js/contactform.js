@@ -5,8 +5,13 @@ const form = document.querySelector('#form-lead');
 form.addEventListener('submit', handleFormSubmit);
 
 //push on form submit
+let contactFormSubmitted = false;
 function handleFormSubmit(event) {
   event.preventDefault();
+
+  // Prevent Duplicate Submissions
+  if (contactFormSubmitted) return;
+  contactFormSubmitted = true;
 
   const backendURL = 'https://us-central1-oberonlogistics-2a5d9.cloudfunctions.net/api/leads';
 
@@ -21,4 +26,8 @@ function handleFormSubmit(event) {
     .catch((error) => {
       console.warn("error: ", error);
     });
+
+  alert("Thanks for reaching out! We'll be in touch shortly.");
+  contactFormSubmitted = false;
+  return;
 }
